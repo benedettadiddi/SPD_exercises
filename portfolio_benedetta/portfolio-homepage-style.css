@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+a:visited{
+    color:black;
+}
+
+.container{
+    display: flex;
+
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    list-style-type: none;
+}
+
+

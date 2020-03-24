@@ -1,0 +1,50 @@
+*{
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+header{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    border: 3px dashed black;
+    margin: 10em;
+
+    width: 50em;
+    height: 50em;  
+}
+
+.item1{
+    width: 50em;
+
+    border: 3px solid pink;
+    padding: 2em;
+    align-self: flex-start;
+}
+
+.item2{
+    width: 50em;
+
+    border: 3px solid pink;
+    padding: 2em;
+    align-self: stretch;
+}
+
+.item3{
+    width: 50em;
+
+    border: 3px solid pink;
+    padding: 2em;
+    align-self: flex-end;
+}
+
